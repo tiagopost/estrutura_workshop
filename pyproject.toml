@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "estrutura-workshop"
+version = "0.1.0"
+description = "meu etl"
+authors = ["TIAGO POST <TIAGOSPOST@GMAIL.COM>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.0"
+openpyxl = "^3.1.2"
+ipython = "^8.21.0"
+pytest = "^8.0.1"
+pyarrow = "^15.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
